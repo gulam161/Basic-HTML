@@ -1,0 +1,17 @@
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-container img {
+  border: 2px dotted #333;
+  border-radius: 3px;
+  margin: 10px;
+  transition: border-color 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.gallery-container img:hover {
+  border-color: #ff0000;
+}
